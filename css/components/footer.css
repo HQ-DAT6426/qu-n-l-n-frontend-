@@ -1,0 +1,44 @@
+
+/* ================= FOOTER ================= */
+.footer {
+    background-color: var(--ks-background-color-main);
+    padding: 40px 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-heading {
+    font-size: var(--ks-font-size-body);
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--ks-default-text1);
+}
+
+.link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.link-list a {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--ks-default-text1);
+    transition: color 0.2s ease;
+}
+
+.link-list a:hover {
+    color: var(--ks-primary-color-main);
+}
+
+/* Căn chỉnh Logo ở Footer */
+.footer-logo img {
+    height: 120px; /* Khống chế chiều cao logo để không bị lố tỷ lệ */
+    object-fit: contain;
+}

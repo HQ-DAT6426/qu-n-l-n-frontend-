@@ -1,0 +1,35 @@
+
+/* ================= HEADER ================= */
+.header {
+    background-color: var(--ks-background-color-white);
+    /* Đường viền đỏ ở dưới header giống hệt trong ảnh */
+    border-bottom: 2px solid var(--ks-primary-color-main);
+    padding: 0 64px; /* Cách lề 2 bên */
+    height: 72px;
+    display: flex;
+    align-items: center;
+}
+
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Menu điều hướng */
+.nav-menu {
+    display: flex;
+    gap: 32px; /* Khoảng cách giữa các chữ */
+}
+
+.nav-link {
+    font-size: var(--ks-font-size-body);
+    font-weight: 600;
+    color: var(--ks-default-text1);
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--ks-primary-color-main); /* Hover vào sẽ chuyển màu đỏ */
+}

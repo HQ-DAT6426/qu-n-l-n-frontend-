@@ -1,0 +1,90 @@
+
+body {
+    color: var(--ks-default-text1);
+    background-color: var(--ks-background-color-white);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* User Profile (Góc phải) */
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid var(--ks-border-color-main);
+    padding: 6px 16px 6px 6px;
+    border-radius: 40px; /* Bo tròn hoàn toàn */
+    cursor: pointer;
+}
+
+.user-profile:hover{
+    border-color: var(--ks-primary-color-main);
+}
+
+.avatar-circle {
+    width: 32px;
+    height: 32px;
+    background-color: #2D2D2D; /* Màu xám đen giống trong ảnh */
+    color: var(--ks-default-text2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.user-role {
+    font-size: var(--ks-font-size-small);
+    color: var(--ks-text-color-sub1);
+    line-height: 1.2;
+}
+
+/* ================= MAIN CONTENT (CÓ ẢNH NỀN) ================= */
+.main-content {
+    flex: 1; /* Chiếm hết phần không gian trống ở giữa */
+    background: url('../../assets/image/background.webp') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: stretch; /* Để khối trắng ở giữa trải dọc xuống */
+    min-height: 1500px;
+}
+
+/* Khối trắng mờ ở giữa màn hình */
+.content-overlay {
+    width: 100%;
+    max-width: 900px; /* Độ rộng của khối trắng */
+    background-color: rgba(253, 219, 219, 0.5); /* Màu trắng trong suốt 90% */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.section-title {
+    font-size: var(--ks-font-size-h1);
+    font-weight: 800;
+    color: var(--ks-default-text1);
+    text-align: center;
+}

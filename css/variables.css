@@ -1,0 +1,16 @@
+/* ================= TỔNG QUAN & BIẾN CSS ================= */
+:root {
+    --ks-primary-color-main: #CE1628;
+    --ks-default-text1: #000000;
+    --ks-default-text2: #ffffff;
+    --ks-text-color-sub1: #676767;
+    --ks-border-color-main: #D9D9D9;
+    --ks-background-color-main: #F8F9FA; /* Màu nền nhẹ cho footer */
+    --ks-background-color-white: #ffffff;
+    
+    /* Font size */
+    --ks-font-size-small: 12px;
+    --ks-font-size-body: 16px;
+    --ks-font-size-h3: 18px;
+    --ks-font-size-h1: 28px;
+}
